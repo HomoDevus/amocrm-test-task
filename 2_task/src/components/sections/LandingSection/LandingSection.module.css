@@ -1,5 +1,4 @@
 .container {
-  padding: 0 3.75rem;
   height: 100vh;
   background: linear-gradient(90deg, black 54%, #57b8ff 54%, #57b8ff 100%);
   display: flex;
@@ -7,10 +6,9 @@
 }
 
 .header {
-  padding: 1.25rem 0;
+  padding: 1.25rem 3.75rem;
   display: flex;
   justify-content: space-between;
-
 }
 
 .cartContainer {
@@ -21,6 +19,7 @@
 .contentContainer {
     display: flex;
     margin: auto 0;
+    padding-right: 3.75rem;
 }
 
 .conent {
@@ -28,6 +27,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
+    flex: 1;
 }
 
 .contentHeading {
@@ -42,6 +42,7 @@
     font-size: 1.125rem;
     color: #999;
     text-align: start;
+    margin-right: 2.8rem;
 }
 
 .contentButtons {
@@ -68,3 +69,27 @@
   border-color: #FDD048 transparent transparent transparent;
   border-radius: 50%/1rem 1rem 0 0;
 }
+
+ .imageContainer {
+  flex: 1;
+ }
+
+ .imageContainer > img {
+  width: 100%;
+ }
+
+ .socialMediaContainer {
+  writing-mode: vertical-lr;
+  white-space: nowrap;
+  transform: rotate(180deg);
+  display: flex;
+  gap: 3rem;
+  width: 2.8rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.675rem;
+ }
+
+ .socialMediaContainer > a {
+  padding: 0.4rem;
+ }
