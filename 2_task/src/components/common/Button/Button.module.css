@@ -1,6 +1,7 @@
 .button {
   color: #fff;
   padding: 1rem 2rem;
+  transition: color linear 0.1s;
 }
 
 .button:hover {
@@ -13,7 +14,4 @@
 
 .outlined {
   border: 1px solid #fff;
-}
-
-.text {
 }

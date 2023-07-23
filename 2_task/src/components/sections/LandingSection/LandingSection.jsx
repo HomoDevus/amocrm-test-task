@@ -1,9 +1,9 @@
 import landingImage from '../../../static/images/landingImage.png'
 import logo from '../../../static/images/logo.svg'
 import Button from '../../common/Button/Button'
-import PreTitle from '../../common/PreTitle/PreTitle'
 import Cart from './Cart/Cart'
 import styles from './LandingSection.module.css'
+import Heading from '../../common/Heading/Heading'
 
 export default function LandingSection() {
   return (
@@ -29,15 +29,14 @@ export default function LandingSection() {
           <a>Twitch</a>
         </div>
         <div className={styles.conent}>
-          <PreTitle>FUTURE OF ESPORTS</PreTitle>
-          <h1 className={styles.contentHeading}>
+          <Heading
+            description={
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, necdonec in morbi pulvinar. Enim non pulvinar neque.'
+            }
+          >
             Unleash the Next{' '}
             <span className={styles.curvedUnderline}>Generation</span> of Gaming
-          </h1>
-          <h6 className={styles.contentDescription}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, nec
-            donec in morbi pulvinar. Enim non pulvinar neque.
-          </h6>
+          </Heading>
           <div className={styles.conentButtons}>
             <Button type='primary'>Explore More</Button>
             <Button type='text'>View our team</Button>

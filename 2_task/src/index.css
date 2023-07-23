@@ -18,6 +18,7 @@ a {
   color: #80858F;
   text-decoration: none;
   cursor: pointer;
+  transition: color linear 0.1s;
 }
 
 a:hover {
