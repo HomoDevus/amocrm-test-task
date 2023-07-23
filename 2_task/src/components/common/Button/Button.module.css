@@ -1,0 +1,19 @@
+.button {
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.button:hover {
+  color: #fac422;
+}
+
+.primary {
+    background-color: #57B8FF;
+}
+
+.outlined {
+  border: 1px solid #fff;
+}
+
+.text {
+}

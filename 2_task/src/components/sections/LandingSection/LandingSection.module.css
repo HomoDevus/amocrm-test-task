@@ -1,0 +1,70 @@
+.container {
+  padding: 0 3.75rem;
+  height: 100vh;
+  background: linear-gradient(90deg, black 54%, #57b8ff 54%, #57b8ff 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 1.25rem 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cartContainer {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.contentContainer {
+    display: flex;
+    margin: auto 0;
+}
+
+.conent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.contentHeading {
+    margin-bottom: 2.8rem;
+    font-size: 4.5rem;
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.contentDescription {
+    margin-bottom: 3.3rem;
+    font-size: 1.125rem;
+    color: #999;
+    text-align: start;
+}
+
+.contentButtons {
+    display: flex;
+    gap: 2.5rem;
+}
+
+/* Styles for the container */
+.curvedUnderline {
+  display: inline-block;
+  position: relative;
+  text-decoration: none; /* Remove default underline */
+}
+
+/* Styles for the pseudo-element */
+.curvedUnderline::after {
+  content: '';
+  position: absolute;
+  bottom: -16px; /* Adjust this value to control the distance of the underline from the text */
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  border: solid 5px #FDD048;
+  border-color: #FDD048 transparent transparent transparent;
+  border-radius: 50%/1rem 1rem 0 0;
+}

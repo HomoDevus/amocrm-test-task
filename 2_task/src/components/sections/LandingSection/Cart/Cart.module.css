@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  position: absolute;
+  border-radius: 30%;
+  background-color: #fff;
+  right: -1.2rem;
+  top: 0;
+  align-self: flex-start;
+  font-size: 0.6875rem;
+  width: 1.3125rem;
+  line-height: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+  border-radius: 0.5625rem;
+  color: #141820;
+}

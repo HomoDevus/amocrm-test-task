@@ -1,0 +1,10 @@
+.text {
+  color: #57b8ff;
+}
+
+.container {
+  margin-bottom: 0.88rem;
+  display: flex;
+  gap: 0.5rem;
+  text-transform: uppercase;
+}
