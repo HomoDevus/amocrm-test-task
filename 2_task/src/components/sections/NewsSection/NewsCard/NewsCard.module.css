@@ -1,35 +1,37 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
 }
 
 .mainItem {
-    grid-row: auto / span 2;
+  grid-row: auto / span 2;
 }
 
-.container > h2, .container > h3 {
-    color: #FFF;
+.container > h2,
+.container > h3 {
+  color: #fff;
 }
 
 .container > h2 {
-    font-size: 2.25rem;
+  font-size: 2.25rem;
 }
 
 .container > h3 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-.mainDate, .secondaryDate {
-    color: #57B8FF;
+.mainDate,
+.secondaryDate {
+  color: #57b8ff;
 }
 
 .mainDate {
-    margin: 3.36rem 0 1.75rem;
-    font-size: 1.125rem;
+  margin: 3.36rem 0 1.75rem;
+  font-size: 1.125rem;
 }
 
 .secondaryDate {
-    margin: 1.86rem 0 1.25rem;
-    font-size: 1rem;
+  margin: 1.86rem 0 1.25rem;
+  font-size: 1rem;
 }

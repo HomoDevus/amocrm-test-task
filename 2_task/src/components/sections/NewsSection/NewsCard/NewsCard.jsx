@@ -3,9 +3,7 @@ import styles from './NewsCard.module.css'
 export default function NewsCard({ title, date, coverSrc, isMain = false }) {
   return (
     <a className={isMain && styles.mainItem}>
-      <div
-        className={styles.container}
-      >
+      <div className={styles.container}>
         <img src={coverSrc} />
         <div className={isMain ? styles.mainDate : styles.secondaryDate}>
           {date}

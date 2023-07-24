@@ -6,7 +6,9 @@ export default function Heading({ description, children }) {
     <>
       <PreTitle>FUTURE OF ESPORTS</PreTitle>
       <h1 className={styles.contentHeading}>{children}</h1>
-      {Boolean(description) && <h6 className={styles.contentDescription}>{description}</h6>}
+      {Boolean(description) && (
+        <h6 className={styles.contentDescription}>{description}</h6>
+      )}
     </>
   )
 }
