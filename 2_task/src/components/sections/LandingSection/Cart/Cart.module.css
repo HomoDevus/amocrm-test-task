@@ -5,6 +5,11 @@
   justify-content: center;
 }
 
+.container > img {
+  width: 50%;
+  height: auto;
+}
+
 .counter {
   position: absolute;
   border-radius: 30%;

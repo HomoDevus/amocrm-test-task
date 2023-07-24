@@ -5,6 +5,25 @@
 .container {
   margin-bottom: 0.88em;
   display: flex;
+  align-items: center;
   gap: 0.5em;
   text-transform: uppercase;
+}
+
+.iconContainer {
+  width: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.iconContainer > img {
+  width: 100%;
+  height: auto;
+}
+
+
+@media screen and (max-width: 800px) {
+  .iconContainer {
+    width: 1.5em;
+  }
 }

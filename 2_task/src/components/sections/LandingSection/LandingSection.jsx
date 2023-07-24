@@ -9,8 +9,8 @@ export default function LandingSection() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <img src={logo} alt='Infinizai logo' />
-        <nav>
+        <img className={styles.logo} src={logo} alt='Infinizai logo' />
+        <nav className={styles.menu}>
           <Button type='text'>Home</Button>
           <Button type='text'>About</Button>
           <Button type='text'>Team</Button>
@@ -28,7 +28,7 @@ export default function LandingSection() {
           <a>Instagram</a>
           <a>Twitch</a>
         </div>
-        <div className={styles.conent}>
+        <div className={styles.content}>
           <Heading
             description={
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, necdonec in morbi pulvinar. Enim non pulvinar neque.'
@@ -37,7 +37,7 @@ export default function LandingSection() {
             Unleash the Next{' '}
             <span className={styles.curvedUnderline}>Generation</span> of Gaming
           </Heading>
-          <div className={styles.conentButtons}>
+          <div className={styles.contentButtons}>
             <Button type='primary'>Explore More</Button>
             <Button type='text'>View our team</Button>
           </div>

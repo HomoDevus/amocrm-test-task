@@ -5,7 +5,7 @@ export default function FooterSection() {
   return (
     <div className={styles.container}>
       <div className={styles.infoContainer}>
-        <img className={styles.logo} src={logo} />
+        <img className={styles.logo} src={logo} alt="Infinizai logo" />
         <p className={styles.description}>
           Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc
           quam ac sed turpis volutpat. Cursus sed massa non.

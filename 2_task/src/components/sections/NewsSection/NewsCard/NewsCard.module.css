@@ -35,3 +35,9 @@
   margin: 1.86em 0 1.25em;
   font-size: 1em;
 }
+
+@media screen and (max-width: 800px) {
+  .mainItem {
+    grid-column: auto / span 2;
+  }
+}

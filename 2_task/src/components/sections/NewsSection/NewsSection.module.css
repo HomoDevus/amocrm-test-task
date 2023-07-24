@@ -5,12 +5,28 @@
   gap: 1.5em;
 }
 
+.heading, .headingButton {
+  margin-bottom: 2.5em;
+}
+
 .headingButton {
   align-self: flex-end;
   justify-self: flex-end;
   grid-column-start: 3;
 }
 
-.bottomMargin {
-  margin-bottom: 2.5em;
+@media screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: minmax(10em, 1fr) minmax(10em, 1fr);
+  }
+
+  .heading, .headingButton {
+    grid-column: auto / span 2;
+    margin-bottom: 1em;
+  }
+
+  .headingButton {
+    justify-self: flex-start;
+    margin-bottom: 2.5em;
+  }
 }

@@ -11,10 +11,10 @@ import styles from './NewsSection.module.css'
 export default function NewsSection() {
   return (
     <div className={styles.container}>
-      <div className={styles.bottomMargin}>
+      <div className={styles.heading}>
         <Heading>Latest News & Articles</Heading>
       </div>
-      <div className={`${styles.headingButton} ${styles.bottomMargin}`}>
+      <div className={styles.headingButton}>
         <Button type='primary'>Read More</Button>
       </div>
       <NewsCard

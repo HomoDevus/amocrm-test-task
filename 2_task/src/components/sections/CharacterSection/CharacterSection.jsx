@@ -10,7 +10,7 @@ export default function CharacterSection() {
   return (
     <div className={styles.container}>
       <div className={styles.characterImageContainer}>
-        <img className={styles.image} src={characterImage} />
+        <img className={styles.image} src={characterImage} alt='Character' />
       </div>
       <div className={styles.content}>
         <Heading description='Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.'>

@@ -1,7 +1,7 @@
 .button {
   color: #fff;
   padding: 1em 2em;
-  transition: color linear 0.1s;
+  transition: color linear 0.1s, background-color linear 0.1s;
 }
 
 .button:hover {
@@ -10,6 +10,10 @@
 
 .primary {
   background-color: #57b8ff;
+}
+
+.primary:hover {
+  background-color: #468fcd;
 }
 
 .outlined {

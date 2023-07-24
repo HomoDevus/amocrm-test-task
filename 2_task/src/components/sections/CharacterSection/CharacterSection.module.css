@@ -12,6 +12,7 @@
 
 .image {
   max-width: 100%;
+  height: auto;
   vertical-align: middle;
 }
 
@@ -22,4 +23,20 @@
 
 .content {
   margin: 4em 0;
+}
+
+@media screen and (max-width: 1270px) {
+  .characterImageContainer {
+    display: none;
+  }
+
+  .characterSelection {
+    overflow-x: auto;
+    width: 100%;
+    padding: 1.2em;
+  }
+
+  .content {
+    max-width: 100%;
+  }
 }
