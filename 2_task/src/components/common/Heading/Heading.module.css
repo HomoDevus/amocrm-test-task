@@ -1,17 +1,17 @@
 .contentHeading {
-  font-size: 4.5rem;
+  font-size: 4.5em;
   text-align: start;
   text-transform: capitalize;
 }
 
 .contentHeading + .contentDescription {
-  margin-top: 2.8rem;
+  margin-top: 2.8em;
 }
 
 .contentDescription {
-  margin-bottom: 3.3rem;
-  font-size: 1.125rem;
+  margin-bottom: 3.3em;
+  font-size: 1.125em;
   color: #999;
   text-align: start;
-  margin-right: 2.8rem;
+  margin-right: 2.8em;
 }

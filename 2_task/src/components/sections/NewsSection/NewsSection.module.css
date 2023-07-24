@@ -1,8 +1,8 @@
 .container {
-  padding: 8rem 3.75rem;
+  padding: 8em 3.75em;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 1.5rem;
+  grid-template-columns: minmax(20em, 2fr) minmax(10em, 1fr) minmax(10em, 1fr);
+  gap: 1.5em;
 }
 
 .headingButton {
@@ -12,5 +12,5 @@
 }
 
 .bottomMargin {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.5em;
 }

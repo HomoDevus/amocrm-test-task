@@ -1,14 +1,25 @@
 .container {
   display: flex;
-  justify-content: space-between;
-  padding: 0 3.75rem;
+  padding: 0 3.75em;
   background-color: #2a313c;
   align-items: center;
-  gap: 8rem;
+  gap: 8em;
+}
+
+.container > * {
+  flex: 1;
+}
+
+.image {
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 .characterSelection {
   display: flex;
-  justify-content: space-between;
-  gap: 1.88rem;
+  gap: 1.88em;
+}
+
+.content {
+  margin: 4em 0;
 }

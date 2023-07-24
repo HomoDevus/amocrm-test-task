@@ -6,20 +6,20 @@
 }
 
 .header {
-  padding: 1.25rem 3.75rem;
+  padding: 1.25em 3.75em;
   display: flex;
   justify-content: space-between;
 }
 
 .cartContainer {
   display: flex;
-  gap: 2.5rem;
+  gap: 2.5em;
 }
 
 .contentContainer {
   display: flex;
   margin: auto 0;
-  padding-right: 3.75rem;
+  padding-right: 3.75em;
 }
 
 .conent {
@@ -32,27 +32,25 @@
 
 .contentButtons {
   display: flex;
-  gap: 2.5rem;
+  gap: 2.5em;
 }
 
-/* Styles for the container */
 .curvedUnderline {
   display: inline-block;
   position: relative;
-  text-decoration: none; /* Remove default underline */
+  text-decoration: none;
 }
 
-/* Styles for the pseudo-element */
 .curvedUnderline::after {
   content: '';
   position: absolute;
-  bottom: -16px; /* Adjust this value to control the distance of the underline from the text */
+  bottom: -1.06em;
   left: 0;
   width: 100%;
-  height: 1rem;
+  height: 1em;
   border: solid 5px #fdd048;
   border-color: #fdd048 transparent transparent transparent;
-  border-radius: 50%/1rem 1rem 0 0;
+  border-radius: 300%/1em 2em 0 0;
 }
 
 .imageContainer {
@@ -68,13 +66,13 @@
   white-space: nowrap;
   transform: rotate(180deg);
   display: flex;
-  gap: 3rem;
-  width: 2.8rem;
+  gap: 3em;
+  width: 3.75em;
   align-items: center;
   justify-content: center;
-  font-size: 0.675rem;
 }
 
 .socialMediaContainer > a {
-  padding: 0.4rem;
+  padding: 0.4em;
+  font-size: 0.675em;
 }
