@@ -1,0 +1,16 @@
+.container {
+    padding: 8rem 3.75rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.headingButton {
+    align-self: flex-end;
+    justify-self: flex-end;
+    grid-column-start: 3;
+}
+
+.bottomMargin {
+    margin-bottom: 2.5rem;
+}
