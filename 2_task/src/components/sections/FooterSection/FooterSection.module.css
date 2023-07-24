@@ -31,16 +31,16 @@
 }
 
 @media screen and (max-width: 800px) {
-    .container {
-        flex-direction: column;
-        gap: 3em;
-    }
+  .container {
+    flex-direction: column;
+    gap: 3em;
+  }
 
-    .infoContainer {
-        max-width: unset;
-    }
+  .infoContainer {
+    max-width: unset;
+  }
 
-    .logo {
-        margin-bottom: 1em;
-    }
+  .logo {
+    margin-bottom: 1em;
+  }
 }

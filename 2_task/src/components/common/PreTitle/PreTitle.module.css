@@ -21,7 +21,6 @@
   height: auto;
 }
 
-
 @media screen and (max-width: 800px) {
   .iconContainer {
     width: 1.5em;

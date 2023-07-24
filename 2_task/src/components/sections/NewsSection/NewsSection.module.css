@@ -5,7 +5,8 @@
   gap: 1.5em;
 }
 
-.heading, .headingButton {
+.heading,
+.headingButton {
   margin-bottom: 2.5em;
 }
 
@@ -20,7 +21,8 @@
     grid-template-columns: minmax(10em, 1fr) minmax(10em, 1fr);
   }
 
-  .heading, .headingButton {
+  .heading,
+  .headingButton {
     grid-column: auto / span 2;
     margin-bottom: 1em;
   }
