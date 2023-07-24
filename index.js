@@ -6,19 +6,28 @@ const timerEl = document.querySelector('span')
 // который будет анимировать timerEl
 const createTimerAnimator = () => {
   return seconds => {
-    function updateTimer() {
-      if (seconds <= 0 && timerId) {
-        clearInterval(timerId)
+    let startTime = null
+    let isRunning = false
+
+    function updateTimer(currentTime) {
+      if (!startTime) startTime = currentTime
+      const leftTime = currentTime - startTime
+
+      if (leftTime >= seconds * 1000) {
         timerEl.innerHTML = 'hh:mm:ss'
+        buttonEl.disabled = false
+        isRunning = false
       } else {
-        seconds--
-        updateTimerElement(seconds)
+        updateTimerElement(seconds - Math.floor(leftTime / 1000))
+        requestAnimationFrame(updateTimer)
       }
     }
 
-    updateTimerElement(seconds)
-
-    const timerId = setInterval(updateTimer, 1000)
+    if (!isRunning && Boolean(seconds)) {
+      isRunning = true
+      buttonEl.disabled = true
+      requestAnimationFrame(updateTimer)
+    }
   }
 }
 
