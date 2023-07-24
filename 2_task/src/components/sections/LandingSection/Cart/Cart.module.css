@@ -5,14 +5,9 @@
   justify-content: center;
 }
 
-.container > img {
-  width: 50%;
-  height: auto;
-}
-
 .counter {
   position: absolute;
-  border-radius: 30%;
+  border-radius: 44%;
   background-color: #fff;
   right: -1.2em;
   top: 0;
@@ -22,6 +17,18 @@
   line-height: 1.125em;
   height: 1.125em;
   flex-shrink: 0;
-  border-radius: 0.5625em;
   color: #141820;
+  padding: 0.2em;
+}
+
+@media screen and (max-width: 800px) {
+  .container > img {
+    width: 50%;
+    height: auto;
+  }
+
+  .counter {
+    right: -0.2em;
+    top: 0.2em;
+  }
 }

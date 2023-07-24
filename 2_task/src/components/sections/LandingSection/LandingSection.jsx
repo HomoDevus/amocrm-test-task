@@ -11,11 +11,21 @@ export default function LandingSection() {
       <header className={styles.header}>
         <img className={styles.logo} src={logo} alt='Infinizai logo' />
         <nav className={styles.menu}>
-          <Button type='text'>Home</Button>
-          <Button type='text'>About</Button>
-          <Button type='text'>Team</Button>
-          <Button type='text'>Shop</Button>
-          <Button type='text'>Pages</Button>
+          <a className={styles.menuLink} href='#home'>
+            Home
+          </a>
+          <a className={styles.menuLink} href='#about'>
+            About
+          </a>
+          <a className={styles.menuLink} href='#team'>
+            Team
+          </a>
+          <a className={styles.menuLink} href='#shop'>
+            Shop
+          </a>
+          <a className={styles.menuLink} href='#page'>
+            Page
+          </a>
         </nav>
         <div className={styles.cartContainer}>
           <Cart amount={0} />
@@ -24,9 +34,9 @@ export default function LandingSection() {
       </header>
       <div className={styles.contentContainer}>
         <div className={styles.socialMediaContainer}>
-          <a>Facebook</a>
-          <a>Instagram</a>
-          <a>Twitch</a>
+          <a href='#facebook'>Facebook</a>
+          <a href='#instagram'>Instagram</a>
+          <a href='#twitch'>Twitch</a>
         </div>
         <div className={styles.content}>
           <Heading

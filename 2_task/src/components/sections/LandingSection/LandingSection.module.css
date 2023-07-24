@@ -18,6 +18,11 @@
   align-items: center;
 }
 
+.menuLink {
+  padding: 1em 2em;
+  color: #fff;
+}
+
 .cartContainer {
   display: flex;
   gap: 2.5em;
@@ -104,11 +109,11 @@
     width: 100%;
   }
 
-  .menu > button:first-child {
+  .menuLink:first-child {
     padding-left: 0;
   }
 
-  .menu > button:last-child {
+  .menuLink:last-child {
     padding-right: 0;
   }
 
