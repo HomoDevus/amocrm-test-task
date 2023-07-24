@@ -1,6 +1,6 @@
-import characterCover3 from '../../../static/images/characterCover3.png'
 import characterCover1 from '../../../static/images/characterCover1.png'
 import characterCover2 from '../../../static/images/characterCover2.png'
+import characterCover3 from '../../../static/images/characterCover3.png'
 import characterImage from '../../../static/images/characterImage.png'
 import Heading from '../../common/Heading/Heading'
 import ImageButton from '../../common/ImageButton/ImageButton'
@@ -10,7 +10,13 @@ export default function CharacterSection() {
   return (
     <div className={styles.container}>
       <div className={styles.characterImageContainer}>
-        <img className={styles.image} src={characterImage} alt='Character' />
+        <img
+          width='668'
+          height='779'
+          className={styles.image}
+          src={characterImage}
+          alt='Character'
+        />
       </div>
       <div className={styles.content}>
         <Heading description='Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.'>

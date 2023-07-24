@@ -9,7 +9,7 @@ export default function LandingSection() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <img className={styles.logo} src={logo} alt='Infinizai logo' />
+        <img width='171' height='48' className={styles.logo} src={logo} alt='Infinizai logo' />
         <nav className={styles.menu}>
           <a className={styles.menuLink} href='#home'>
             Home

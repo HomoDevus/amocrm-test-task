@@ -71,6 +71,7 @@
 
 .imageContainer > img {
   width: 100%;
+  aspect-ratio: 65 / 51;
 }
 
 .socialMediaContainer {
