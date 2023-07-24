@@ -14,19 +14,19 @@ export default function FooterSection() {
       <div className={styles.footerNavColumn}>
         <h6>Menu Items</h6>
         <nav>
-            <a>About</a>
-            <a>Blog</a>
-            <a>Shop</a>
-            <a>Contact Us</a>
+          <a>About</a>
+          <a>Blog</a>
+          <a>Shop</a>
+          <a>Contact Us</a>
         </nav>
       </div>
       <div className={styles.footerNavColumn}>
         <h6>Other Pages</h6>
         <nav>
-            <a>Styleguide</a>
-            <a>Changelog</a>
-            <a>Licenses</a>
-            <a>Team</a>
+          <a>Styleguide</a>
+          <a>Changelog</a>
+          <a>Licenses</a>
+          <a>Team</a>
         </nav>
       </div>
     </div>

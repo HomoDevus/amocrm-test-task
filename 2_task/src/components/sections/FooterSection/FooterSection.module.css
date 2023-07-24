@@ -1,31 +1,31 @@
 .container {
-    padding: 8em 3em 11em;
-    display: flex;
-    background-color: #222730;
-    gap: 9.4em;
-    text-align: start;
+  padding: 8em 3em 11em;
+  display: flex;
+  background-color: #222730;
+  gap: 9.4em;
+  text-align: start;
 }
 
 .infoContainer {
-    max-width: 18em;
+  max-width: 18em;
 }
 
 .logo {
-    margin-bottom: 2.2em;
+  margin-bottom: 2.2em;
 }
 
 .description {
-    color: #999999;
+  color: #999999;
 }
 
 .footerNavColumn > nav {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    font-size: 0.9375em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 0.9375em;
 }
 
 .footerNavColumn > h6 {
-    font-size: 1.125em;
-    margin-bottom: 1.5em;
+  font-size: 1.125em;
+  margin-bottom: 1.5em;
 }
