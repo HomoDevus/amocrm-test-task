@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/amocrm-test-task/static/css/main.67f54faf.css",
+    "main.js": "/amocrm-test-task/static/js/main.d15602be.js",
+    "static/js/787.fa091e9f.chunk.js": "/amocrm-test-task/static/js/787.fa091e9f.chunk.js",
+    "static/media/landingImage.png": "/amocrm-test-task/static/media/landingImage.e564133e66ec5f542c6e.png",
+    "static/media/characterImage.png": "/amocrm-test-task/static/media/characterImage.e79e1507b90b4826509d.png",
+    "static/media/articleCover1.png": "/amocrm-test-task/static/media/articleCover1.614bffd2acf5f2dd818b.png",
+    "static/media/articleCover2.png": "/amocrm-test-task/static/media/articleCover2.9c0e5ec98b6a3e15e69a.png",
+    "static/media/articleCover5.png": "/amocrm-test-task/static/media/articleCover5.f4fc87b766fde29902fd.png",
+    "static/media/articleCover4.png": "/amocrm-test-task/static/media/articleCover4.98dbc7bc2a3e2dff594a.png",
+    "static/media/characterCover1.png": "/amocrm-test-task/static/media/characterCover1.479a53748481ce2f8a87.png",
+    "static/media/articleCover3.png": "/amocrm-test-task/static/media/articleCover3.1eebcba3cbee14ba8f6e.png",
+    "static/media/characterCover2.png": "/amocrm-test-task/static/media/characterCover2.9ee90aa59167d901245b.png",
+    "static/media/logo.svg": "/amocrm-test-task/static/media/logo.72f3ad41bd9380458ed2deb1ad4ad79d.svg",
+    "static/media/fire.svg": "/amocrm-test-task/static/media/fire.65d647899f066815b51d7a0542f9f802.svg",
+    "static/media/cart.svg": "/amocrm-test-task/static/media/cart.7317b55fd6ecb658fe92963647867f00.svg",
+    "index.html": "/amocrm-test-task/index.html",
+    "main.67f54faf.css.map": "/amocrm-test-task/static/css/main.67f54faf.css.map",
+    "main.d15602be.js.map": "/amocrm-test-task/static/js/main.d15602be.js.map",
+    "787.fa091e9f.chunk.js.map": "/amocrm-test-task/static/js/787.fa091e9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67f54faf.css",
+    "static/js/main.d15602be.js"
+  ]
+}
